@@ -1,4 +1,11 @@
 import React from "react";
+import reactBadge from "../../assets/reactBadge.png";
+import htmlBadge from "../../assets/htmlBadge.png";
+import cssBadge from "../../assets/cssBadge.png";
+import mongoBadge from "../../assets/mongoBadge.png";
+import pythonBadge from "../../assets/pythonBadge.png";
+import cPlusPlusBadge from "../../assets/C++Badge.png";
+import sqlBadge from "../../assets/sqlBadge.png";
 import "./skills.css";
 import {
   Link,
@@ -25,17 +32,9 @@ function Skills() {
             <p>React, HTML, CSS</p>
           </div>
           <div className="skillBarImgs">
-            <img
-              src="src/assets/reactBadge.png"
-              alt=""
-              className="skillBarImg"
-            />
-            <img
-              src="src/assets/htmlBadge.png"
-              alt=""
-              className="skillBarImg"
-            />
-            <img src="src/assets/cssBadge.png" alt="" className="skillBarImg" />
+            <img src={reactBadge} alt="" className="skillBarImg" />
+            <img src={htmlBadge} alt="" className="skillBarImg" />
+            <img src={cssBadge} alt="" className="skillBarImg" />
           </div>
         </div>
         <div className="skillBar">
@@ -44,12 +43,8 @@ function Skills() {
             <p>SQL, MongoDB</p>
           </div>
           <div className="skillBarImgs">
-            <img src="src/assets/sqlBadge.png" alt="" className="skillBarImg" />
-            <img
-              src="src/assets/mongoBadge.png"
-              alt=""
-              className="skillBarImg"
-            />
+            <img src={sqlBadge} alt="" className="skillBarImg" />
+            <img src={mongoBadge} alt="" className="skillBarImg" />
           </div>
         </div>
         <div className="skillBar">
@@ -58,12 +53,8 @@ function Skills() {
             <p>Python, C++</p>
           </div>
           <div className="skillBarImgs">
-            <img
-              src="src/assets/pythonBadge.png"
-              alt=""
-              className="skillBarImg"
-            />
-            <img src="src/assets/C++Badge.png" alt="" className="skillBarImg" />
+            <img src={pythonBadge} alt="" className="skillBarImg" />
+            <img src={cPlusPlusBadge} alt="" className="skillBarImg" />
           </div>
         </div>
       </div>

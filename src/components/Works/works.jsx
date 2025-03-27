@@ -1,7 +1,8 @@
 import React from "react";
 import "./works.css";
-import snorlax from "../../assets/snorlax.png";
-
+import atladle from "../../assets/atladle.png";
+import stuteaCover from "../../assets/StuTeaCover.png";
+import portfolioCover from "../../assets/portfolioCover.png";
 function Works() {
   return (
     <section id="works">
@@ -15,11 +16,31 @@ function Works() {
           Click the icons below to view the project on GitHub!
         </span>
       </span>
+
       <div className="worksImgs">
-        <img src="src/assets/atladle.png" alt="" className="worksImg" />
-        <img src={snorlax} alt="" className="worksImg" />
-        <img src={snorlax} alt="" className="worksImg" />
-        <img src={snorlax} alt="" className=" worksImg" />
+        <a
+          href="https://github.com/andrewtonster/atla"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={atladle} alt="" className="worksImg" />
+        </a>
+
+        <a
+          href="https://github.com/andrewtonster/Stutea"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={stuteaCover} alt="" className="worksImg" />
+        </a>
+
+        <a
+          href="https://github.com/andrewtonster/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={portfolioCover} alt="" className="worksImg" />
+        </a>
       </div>
       {/* <button className="workBtn">See more</button> */}
     </section>

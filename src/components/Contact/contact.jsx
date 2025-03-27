@@ -1,10 +1,10 @@
 import React from "react";
 import "./contact.css";
-import snorlax from "../../assets/snorlax.png";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { ToastContainer, toast, Bounce } from "react-toastify";
-
+import linkedinicon from "../../assets/linkedin_img.png";
+import githubicon from "../../assets/githubcolor.png";
 function Contact() {
   const form = useRef();
 
@@ -86,10 +86,21 @@ function Contact() {
           </button>
           <ToastContainer />
           <div className="links">
-            <img src={snorlax} alt="" className="link" />
-            <img src={snorlax} alt="" className="link" />
-            <img src={snorlax} alt="" className="link" />
-            <img src={snorlax} alt="" className="link" />
+            <a
+              href="https://www.linkedin.com/in/andrew-ton-367b18253/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedinicon} alt="" className="link" />
+            </a>
+
+            <a
+              href="https://github.com/andrewtonster"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={githubicon} alt="" className="link" />
+            </a>
           </div>
         </form>
       </div>

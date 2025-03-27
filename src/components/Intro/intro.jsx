@@ -2,7 +2,8 @@ import React from "react";
 import "./intro.css";
 import { Link } from "react-scroll";
 import { BsPencilSquare } from "react-icons/bs";
-import snorlax from "../../assets/snorlax.png";
+import duckoo3 from "../../assets/duckoo3.png";
+
 function Intro() {
   return (
     <section id="intro">
@@ -14,16 +15,23 @@ function Intro() {
         <p className="introPara">
           I am a student studying Computer Science at UCSD
           <br />
-          and enjoy frontend and backend development!
+          and enjoy frontend and backend development.
+          <br />
+          Feel free to take a look at what I have built!
         </p>
-        <Link>
+        <a
+          href="https://www.linkedin.com/in/andrew-ton-367b18253/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="btn">
             <BsPencilSquare className="bold-icon" />
             Hire Me
           </button>
-        </Link>
+        </a>
       </div>
-      <img className="bg" src={snorlax} alt="Profile" />
+      <p className="shaking-text">I LOVE DUCKS!</p>
+      <img className="bg" src={duckoo3} alt="Profile" />
     </section>
   );
 }

@@ -20,6 +20,7 @@
   font-weight: 300;
   font-size: 1rem;
   max-width: 45rem;
+  margin-bottom: 20px;
 }
 
 .worksImgs {
@@ -32,12 +33,13 @@
 }
 
 .portfolioCTA {
-  color: yellow;
+  color: #ffde74;
 }
 
 .worksImg {
   object-fit: cover;
   height: 20rem;
+  width: 20rem;
   margin: 0.5rem;
   border-radius: 1rem;
   transition: transform 0.3s ease, filter 0.3s ease;

@@ -126,3 +126,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .bg {
+    filter: brightness(0.6); /* 0.6 = 60% brightness → darker */
+  }
+}

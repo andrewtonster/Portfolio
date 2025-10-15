@@ -1,7 +1,7 @@
 import React from "react";
 import "./works.css";
 import atladle from "../../assets/atladle.png";
-import stuteaCover from "../../assets/StuTeaCover.png";
+import ucsdHarborCover from "../../assets/ucsdHarborCover.png";
 import portfolioCover from "../../assets/portfolioCover.png";
 function Works() {
   return (
@@ -19,19 +19,18 @@ function Works() {
 
       <div className="worksImgs">
         <a
+          href="https://github.com/andrewtonster/UCSD-Food-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={ucsdHarborCover} alt="" className="worksImg" />
+        </a>
+        <a
           href="https://github.com/andrewtonster/atla"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={atladle} alt="" className="worksImg" />
-        </a>
-
-        <a
-          href="https://github.com/andrewtonster/Stutea"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={stuteaCover} alt="" className="worksImg" />
         </a>
 
         <a

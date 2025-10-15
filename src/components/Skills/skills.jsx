@@ -20,11 +20,11 @@ function Skills() {
   return (
     <section id="skills">
       <span className="skillTitle">Technologies</span>
-      <span className="skillDesc">
+      {/* <span className="skillDesc">
         I've worked with a range of technologies to build projects, from
         front-end interfaces to back-end systems. Here are some of the key tools
         and frameworks I've used to make dynamic and engaging projects.
-      </span>
+      </span> */}
       <div className="skillBars">
         <div className="skillBar">
           <div className="skillBarText">

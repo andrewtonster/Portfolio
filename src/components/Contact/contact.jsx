@@ -43,22 +43,9 @@ function Contact() {
   };
   return (
     <section id="contactPage">
-      {/* <div className="clients">
-        <h1 className="contactPageTitle">Other Interests</h1>
-        <p className="clientDesc">This is some more information about me</p>
-        <div className="clientImgs">
-          <img src="src/assets/ucsdImg.png" alt="" className="clientImg" />
-          <img src={snorlax} alt="" className="clientImg" />
-          <img src={snorlax} alt="" className="clientImg" />
-          <img src={snorlax} alt="" className="clientImg" />
-        </div>
-      </div> */}
       <div className="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDesc">
-          Feel free to reach out! Simply enter your name, email, and message
-          below, then click "Submit." Thank you—I’ll get back to you shortly!
-        </span>
+
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <input
             type="text"

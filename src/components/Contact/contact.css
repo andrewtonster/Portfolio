@@ -45,6 +45,7 @@
   font-weight: 300;
   display: inline-block;
   width: 600px;
+  display: flex;
 }
 
 .contactForm {
